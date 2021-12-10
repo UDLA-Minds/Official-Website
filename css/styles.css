@@ -184,10 +184,10 @@ header {
   align-items: center;
 }
 .home {
-  min-height: 100vh;
-  background-repeat: repeat;
+  min-height: 110vh;
+  background-repeat: no-repeat;
   background-position: center;
-  background-attachment: cover;
+  background-attachment: fixed;
   background-image: url("../assets/svg/bg_circuit.svg");
 }
 .home__content {

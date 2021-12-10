@@ -185,8 +185,9 @@ header {
 }
 .home {
   min-height: 100vh;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
+  background-attachment: cover;
   background-image: url("../assets/svg/bg_circuit.svg");
 }
 .home__content {
@@ -369,6 +370,9 @@ header {
   }
 }
 @media (max-width: 450px) {
+  .home {
+    height: 100%;
+  }
   .home .home__content .left-col .btn {
     display: flex;
     margin-top: 40px;

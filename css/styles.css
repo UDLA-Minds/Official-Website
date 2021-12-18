@@ -184,7 +184,7 @@ header {
   align-items: center;
 }
 .home {
-  min-height: 110vh;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
